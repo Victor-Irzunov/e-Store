@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
-}
+.app{
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+ }
+ .container{
+	margin: 0 auto;
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ div.ant-typography, .ant-typography p{
+	margin-bottom: 0;
+ }
+ .ant-menu-horizontal > .ant-menu-item a{
+	color: rgb(255, 255, 255);
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:nth-child(1){
+	padding-left: 0;
+	padding-right: 2em;
+ }
+ .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:nth-child(2){
+	padding-right: 10px;
+ }
+ .ant-menu-horizontal > .ant-menu-item:nth-child(1):after{
+	left: 0;
+ }
+ .ant-form-inline .ant-form-item{
+	margin-right: 0;
+ }
+ .ant-menu-horizontal{
+	border-bottom: 1px solid #fff;
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .ant-carousel .slick-dots li button{
+	background: rgba(0, 89, 255, 0.454);
+ }
+ .ant-carousel .slick-dots li.slick-active button{
+	background: rgba(0, 89, 255, 0.631);
+ }
+ .react-multi-carousel-list{
+	overflow: visible !important;
+ }
+ .ant-btn-primary{
+	background-color:  #2575fc;
+ }
