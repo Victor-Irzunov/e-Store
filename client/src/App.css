@@ -1,0 +1,84 @@
+.app{
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+ }
+ .container{
+	margin: 0 auto;
+ }
+
+ div.ant-typography, .ant-typography p{
+	margin-bottom: 0;
+ }
+ .ant-menu-horizontal > .ant-menu-item a{
+	color: rgb(255, 255, 255);
+ }
+
+ .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:nth-child(1){
+	padding-left: 0;
+	padding-right: 2em;
+ }
+ .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:nth-child(2){
+	padding-right: 10px;
+ }
+ .ant-menu-horizontal > .ant-menu-item:nth-child(1):after{
+	left: 0;
+ }
+ .ant-form-inline .ant-form-item{
+	margin-right: 0;
+ }
+ .ant-menu-horizontal{
+	border-bottom: 1px solid #fff;
+ }
+
+ .ant-carousel .slick-dots li button{
+	background: rgba(0, 89, 255, 0.454);
+ }
+ .ant-carousel .slick-dots li.slick-active button{
+	background: rgba(0, 89, 255, 0.631);
+ }
+ .react-multi-carousel-list{
+	overflow: visible !important;
+ }
+ .ant-btn-primary{
+	background-color:  #2575fc;
+ }
+
+ .ant-card-body {
+	padding: 5px;
+}
+
+img{
+	display: inline-block;
+}
+
+.active{
+	color: #2575fc;
+}
+
+
+
+.icon-card{
+	fill:gray !important;
+	width: 2.4em;
+	height: 2.4em;
+}
+
+
+.ant-drawer-top>.ant-drawer-content-wrapper{
+	top: 130px;
+}
+
+.radio{
+	margin-right: 2em;
+	margin-bottom: 2em;
+}
+
+.radio:hover + span{
+	transform: scale(1.2);
+	transition: 0.3s;
+}
+.radio:checked + span{
+	transform: scale(1.3);
+}
